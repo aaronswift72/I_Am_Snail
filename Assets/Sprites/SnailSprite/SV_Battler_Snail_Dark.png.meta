@@ -1,0 +1,1361 @@
+fileFormatVersion: 2
+guid: 9137d02529a774be98dae61cc5c49860
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 320
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20737b6e657134adc85672b33630886a
+      internalID: 1449561203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 320
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e178e3283fa54dd3843c4326322ddec
+      internalID: -1093407537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 320
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b490f27293044fd9154e631b1333c6
+      internalID: 1134300141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 320
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898c48dae30d44691b361ea99f7fcc6c
+      internalID: -233348598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 320
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9f2950e596643bb8a131952854e10a
+      internalID: -922518308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de7277b8a26149beb12e06613fefbaa
+      internalID: -533268882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_6
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 320
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611b33b0387764fdea69e9821815963d
+      internalID: 850479082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_7
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 320
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26244bff1dd44a9694a5e436ce8497d
+      internalID: -1175355794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_8
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 320
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465db39080fe845559f9438735271204
+      internalID: -1376216714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 256
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d2ad7e4a2ce424da844547580b5d57
+      internalID: 1372555704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 256
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1282e7e09f00e4ce5b9c6498c78c24b1
+      internalID: -1335055039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_11
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 256
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80090416d6d434eb9b17e66f924a22f1
+      internalID: 9170737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 256
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d4b4e74ecbd449ba9990541f273e71
+      internalID: 1035389837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_13
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 256
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935c009904532424baf197efe46feed2
+      internalID: -987714292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36be7613419804ea1b637fa1a5f50610
+      internalID: -837933612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_15
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 256
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6eeca77e5845408d92d1a3350e1b83b
+      internalID: -1222802437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_16
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 256
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272a95a4faffa4d748c1b8e6555ad929
+      internalID: 789156660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_17
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 256
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63904b5497a464cf086f852d0f58651e
+      internalID: -1034222545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 192
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a3dbe83e5cd462c9601a4f91921a13
+      internalID: 520801638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 192
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a95cc519c3041298144e007aa41d51
+      internalID: 965569670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 192
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f651012d45b9841b5970588fbf1b49b3
+      internalID: -172365187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_21
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 192
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fa55471bfdc4880aa6f2992d739212
+      internalID: -1514820506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_22
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 192
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6357dacc39084416a8c0c5470f2216a3
+      internalID: 85277207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9973dffb5aff4f81b018b1f11eb0ad6
+      internalID: 746196217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_24
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 192
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7c2265ed5174cd794396884f652bfe
+      internalID: -951263130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_25
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 192
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6594676476e4d3c9ac47c87d425e82
+      internalID: -26091122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_26
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 192
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16243c75e6624d2cad6dd763e23152d
+      internalID: -1377023709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 128
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51e1094020524775a755edd66ac9a9b
+      internalID: 874068867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_28
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 128
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7d529596593462c8c695d14afce709
+      internalID: -1699898400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_29
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 128
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0e548fa18e34addbeed53b7dccf082
+      internalID: -851262230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 128
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19852b473a664ca1b1bee812fe1a13c
+      internalID: -264297298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_31
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 128
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed779c8c844a44b485e588e6af35fbc
+      internalID: 2141781803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7479ef3c81fa241c5a76e77daa0d663f
+      internalID: -2097138512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_33
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 128
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbe30c25b2a04c11982b69fead9e83b
+      internalID: 1328947291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_34
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 128
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fe9ec2440b9483bb4663297a5f89e6
+      internalID: -69932481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_35
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 128
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3326d10d4edf445398947360929f1f90
+      internalID: -840885265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 64
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0351cbd07394a19b58f2566716bcb0
+      internalID: -18478452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_37
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a79a03dd8df04763996e0eb4ae7a1c9
+      internalID: -712855626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_38
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 64
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660d0f1e4804448fabf5761d7a51a7ee
+      internalID: -1905005921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_39
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 64
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4b901a83b8c4180bf891d6bf70fc18
+      internalID: 93601046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_40
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 64
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1eea47a37ce471f98fa72a23decf29
+      internalID: 1125785737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bcae20bcd7d40a989b3d44eb1480fe
+      internalID: 1423697196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_42
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 64
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73935e37e69e4454b57ef1b1492df5e
+      internalID: -354746850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_43
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 64
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35b08d71216a478d98f355f3c1e5acf
+      internalID: -1603652729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_44
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 64
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a771bbc4afbe4953a00c18003314f92
+      internalID: 486863882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_45
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648d39da1ccbe479b94c5cc02320ba29
+      internalID: 89088266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_46
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd595bee86ad4add88e43d33836a662
+      internalID: -1490302649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_47
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a1a337da19c49fa8ffa59fc62e06b4
+      internalID: -279410497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_48
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7ba1015818b496a85c073896d7fdbf
+      internalID: 479291158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_49
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec04be725954c49159b0b38e65e8f2a5
+      internalID: -1259050692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2b80d272bf3488d8c98be7cba03486
+      internalID: 1164658670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_51
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 0
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aca66f853c60428896bfa1ad0edb3e2
+      internalID: 1799687637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_52
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b24a25239cf42848c41065e731d8fb
+      internalID: -944885632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SV_Battler_Snail_Dark_53
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 0
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ca0dd4725a84e22aff7a52c59fda3b
+      internalID: 166734526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c7256b390722543909ec3a2917003815
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":6.0},"gridSpriteSize":{"x":62.0,"y":64.0},"gridSpriteOffset":{"x":10.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SV_Battler_Snail_Dark_0: 1449561203
+      SV_Battler_Snail_Dark_1: -1093407537
+      SV_Battler_Snail_Dark_10: -1335055039
+      SV_Battler_Snail_Dark_11: 9170737
+      SV_Battler_Snail_Dark_12: 1035389837
+      SV_Battler_Snail_Dark_13: -987714292
+      SV_Battler_Snail_Dark_14: -837933612
+      SV_Battler_Snail_Dark_15: -1222802437
+      SV_Battler_Snail_Dark_16: 789156660
+      SV_Battler_Snail_Dark_17: -1034222545
+      SV_Battler_Snail_Dark_18: 520801638
+      SV_Battler_Snail_Dark_19: 965569670
+      SV_Battler_Snail_Dark_2: 1134300141
+      SV_Battler_Snail_Dark_20: -172365187
+      SV_Battler_Snail_Dark_21: -1514820506
+      SV_Battler_Snail_Dark_22: 85277207
+      SV_Battler_Snail_Dark_23: 746196217
+      SV_Battler_Snail_Dark_24: -951263130
+      SV_Battler_Snail_Dark_25: -26091122
+      SV_Battler_Snail_Dark_26: -1377023709
+      SV_Battler_Snail_Dark_27: 874068867
+      SV_Battler_Snail_Dark_28: -1699898400
+      SV_Battler_Snail_Dark_29: -851262230
+      SV_Battler_Snail_Dark_3: -233348598
+      SV_Battler_Snail_Dark_30: -264297298
+      SV_Battler_Snail_Dark_31: 2141781803
+      SV_Battler_Snail_Dark_32: -2097138512
+      SV_Battler_Snail_Dark_33: 1328947291
+      SV_Battler_Snail_Dark_34: -69932481
+      SV_Battler_Snail_Dark_35: -840885265
+      SV_Battler_Snail_Dark_36: -18478452
+      SV_Battler_Snail_Dark_37: -712855626
+      SV_Battler_Snail_Dark_38: -1905005921
+      SV_Battler_Snail_Dark_39: 93601046
+      SV_Battler_Snail_Dark_4: -922518308
+      SV_Battler_Snail_Dark_40: 1125785737
+      SV_Battler_Snail_Dark_41: 1423697196
+      SV_Battler_Snail_Dark_42: -354746850
+      SV_Battler_Snail_Dark_43: -1603652729
+      SV_Battler_Snail_Dark_44: 486863882
+      SV_Battler_Snail_Dark_45: 89088266
+      SV_Battler_Snail_Dark_46: -1490302649
+      SV_Battler_Snail_Dark_47: -279410497
+      SV_Battler_Snail_Dark_48: 479291158
+      SV_Battler_Snail_Dark_49: -1259050692
+      SV_Battler_Snail_Dark_5: -533268882
+      SV_Battler_Snail_Dark_50: 1164658670
+      SV_Battler_Snail_Dark_51: 1799687637
+      SV_Battler_Snail_Dark_52: -944885632
+      SV_Battler_Snail_Dark_53: 166734526
+      SV_Battler_Snail_Dark_6: 850479082
+      SV_Battler_Snail_Dark_7: -1175355794
+      SV_Battler_Snail_Dark_8: -1376216714
+      SV_Battler_Snail_Dark_9: 1372555704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

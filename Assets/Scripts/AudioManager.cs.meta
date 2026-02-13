@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: bddaa81164cb54859a7b4d4b08230326
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - birdsAmbience: {fileID: 8300000, guid: d0b7d6f24e91f4c499a92ab57a9981f9, type: 3}
+  - windAmbience: {fileID: 8300000, guid: ff480ac9bb9b64e93ac68e53806c57dd, type: 3}
+  - coin1: {fileID: 8300000, guid: c368c4f2ca14848c28f03086494c27e1, type: 3}
+  - coin2: {fileID: 8300000, guid: 09a72e8d68715465a9e024d9f11c2f95, type: 3}
+  - coin3: {fileID: 8300000, guid: 1098fafbe34e0423a975c96b40b0109a, type: 3}
+  - jumpCharge: {fileID: 8300000, guid: 2aea5f90fe20f4489a12d3eed740cb50, type: 3}
+  - jump: {instanceID: 0}
+  - shimmer: {fileID: 8300000, guid: eb55f4cfe0bc546949e7d423f0cbd311, type: 3}
+  - snailTheme: {fileID: 8300000, guid: 906ea0bc13ac94ea5b354d20613f8246, type: 3}
+  - musicSource: {instanceID: 0}
+  - windSource: {instanceID: 0}
+  - birdsSource: {instanceID: 0}
+  - jumpSource: {instanceID: 0}
+  - coinSource: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

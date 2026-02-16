@@ -16,9 +16,9 @@ public class MushroomSpawner : MonoBehaviour
     public LayerMask groundLayer;
 
     [Header("Terrain Texture Filtering")]
-    public Terrain terrain; // Drag your terrain here
-    public int[] allowedTextureIndices; // Which texture layers to spawn on (0, 1, 2, etc.)
-    public float textureThreshold = 0.5f; // How strong the texture needs to be (0-1)
+    public Terrain terrain; 
+    public int[] allowedTextureIndices; 
+    public float textureThreshold = 0.5f; 
 
     [Header("Spawn on Start")]
     public bool spawnOnAwake = true;
@@ -35,7 +35,7 @@ public class MushroomSpawner : MonoBehaviour
     {
         int spawnedCount = 0;
         int attempts = 0;
-        int maxAttempts = numberOfMushrooms * 10; // Prevent infinite loop
+        int maxAttempts = numberOfMushrooms * 10; 
 
         while (spawnedCount < numberOfMushrooms && attempts < maxAttempts)
         {
@@ -59,14 +59,13 @@ public class MushroomSpawner : MonoBehaviour
                     // Spawn it
                     GameObject mushroom = Instantiate(randomMushroom, hit.point, Quaternion.identity);
                     
-                    // Random rotation (only Y axis for natural look)
+                    // Random rotation
                     mushroom.transform.rotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
                     
                     // Random scale variation
                     float randomScale = Random.Range(minScale, maxScale);
                     mushroom.transform.localScale = Vector3.one * randomScale;
                     
-                    // Parent to this spawner for organization
                     mushroom.transform.parent = transform;
 
                     spawnedCount++;
@@ -80,7 +79,7 @@ public class MushroomSpawner : MonoBehaviour
     bool IsValidTexture(Vector3 worldPos)
     {
         if (terrain == null || allowedTextureIndices.Length == 0)
-            return true; // If no terrain set, spawn anywhere
+            return true;
 
         // Convert world position to terrain-local position
         Vector3 terrainPos = worldPos - terrain.transform.position;
@@ -92,18 +91,16 @@ public class MushroomSpawner : MonoBehaviour
         float x = terrainPos.x / terrainData.size.x;
         float z = terrainPos.z / terrainData.size.z;
         
-        // Get alphamap resolution
         int mapX = Mathf.FloorToInt(x * terrainData.alphamapWidth);
         int mapZ = Mathf.FloorToInt(z * terrainData.alphamapHeight);
         
-        // Clamp to valid range
         mapX = Mathf.Clamp(mapX, 0, terrainData.alphamapWidth - 1);
         mapZ = Mathf.Clamp(mapZ, 0, terrainData.alphamapHeight - 1);
         
-        // Get texture mix at this point (array of weights for each texture)
+        // Get texture mix at this point
         float[,,] alphamap = terrainData.GetAlphamaps(mapX, mapZ, 1, 1);
         
-        // Check if any allowed texture is strong enough at this position
+        // Check if any allowed texture is strong enough
         foreach (int textureIndex in allowedTextureIndices)
         {
             if (textureIndex < alphamap.GetLength(2)) // Make sure index is valid
@@ -111,12 +108,12 @@ public class MushroomSpawner : MonoBehaviour
                 float textureWeight = alphamap[0, 0, textureIndex];
                 if (textureWeight >= textureThreshold)
                 {
-                    return true; // This spot has enough of an allowed texture
+                    return true; 
                 }
             }
         }
         
-        return false; // No valid texture found
+        return false; 
     }
 
     // Visualize spawn area in editor

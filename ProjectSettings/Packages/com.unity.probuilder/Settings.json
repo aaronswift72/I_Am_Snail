@@ -44,7 +44,7 @@
             {
                 "type": "UnityEngine.ProBuilder.LogOutput, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "log.output",
-                "value": "{\"m_Value\":1}"
+                "value": "{\"m_Value\":2}"
             },
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -54,12 +54,12 @@
             {
                 "type": "UnityEngine.ProBuilder.SemVer, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "about.identifier",
-                "value": "{\"m_Value\":{\"m_Major\":6,\"m_Minor\":0,\"m_Patch\":8,\"m_Build\":-1,\"m_Type\":\"\",\"m_Metadata\":\"\",\"m_Date\":\"\"}}"
+                "value": "{\"m_Value\":{\"m_Major\":6,\"m_Minor\":0,\"m_Patch\":9,\"m_Build\":-1,\"m_Type\":\"\",\"m_Metadata\":\"\",\"m_Date\":\"\"}}"
             },
             {
                 "type": "UnityEngine.ProBuilder.SemVer, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "preferences.version",
-                "value": "{\"m_Value\":{\"m_Major\":6,\"m_Minor\":0,\"m_Patch\":8,\"m_Build\":-1,\"m_Type\":\"\",\"m_Metadata\":\"\",\"m_Date\":\"\"}}"
+                "value": "{\"m_Value\":{\"m_Major\":6,\"m_Minor\":0,\"m_Patch\":9,\"m_Build\":-1,\"m_Type\":\"\",\"m_Metadata\":\"\",\"m_Date\":\"\"}}"
             },
             {
                 "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -69,11 +69,21 @@
             {
                 "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.LastSize.Cube",
-                "value": "{\"m_Value\":{\"x\":-2.257658004760742,\"y\":0.5168299674987793,\"z\":-0.8515243530273438}}"
+                "value": "{\"m_Value\":{\"x\":-16.242984771728517,\"y\":19.806333541870118,\"z\":-18.62647247314453}}"
+            },
+            {
+                "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "key": "ShapeBuilder.LastSize.Cylinder",
+                "value": "{\"m_Value\":{\"x\":12.950271606445313,\"y\":17.279888153076173,\"z\":-13.435874938964844}}"
             },
             {
                 "type": "UnityEngine.Quaternion, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.LastRotation.Cube",
+                "value": "{\"m_Value\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0}}"
+            },
+            {
+                "type": "UnityEngine.Quaternion, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "key": "ShapeBuilder.LastRotation.Cylinder",
                 "value": "{\"m_Value\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0}}"
             },
             {
@@ -85,6 +95,11 @@
                 "type": "UnityEngine.ProBuilder.PivotLocation, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.PivotLocation.Cube",
                 "value": "{\"m_Value\":1}"
+            },
+            {
+                "type": "UnityEngine.ProBuilder.PivotLocation, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "key": "ShapeBuilder.PivotLocation.Cylinder",
+                "value": "{\"m_Value\":0}"
             },
             {
                 "type": "UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -114,6 +129,11 @@
             {
                 "type": "UnityEngine.ProBuilder.Shapes.Shape, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.Cube",
+                "value": "{}"
+            },
+            {
+                "type": "UnityEngine.ProBuilder.Shapes.Shape, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "key": "ShapeBuilder.Cylinder",
                 "value": "{}"
             }
         ]

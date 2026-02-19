@@ -9,6 +9,7 @@ public class SlimeTrailController : MonoBehaviour
     void Update()
     {
         trailRenderer.emitting = isGrounded;
+
     }
 
     private void OnCollisionStay(Collision collision)

@@ -10,18 +10,20 @@ public class CoinBehavior : MonoBehaviour
     [Header("Proximity Sound")]
     //public float shimmerDistance = 15f; // Distance at which shimmer starts
     public bool isPlayerNear = false;
+    private bool collected = false;
 
 private Transform playerTransform;
 
     void Start()
     {
         startPosition = transform.position;
-
+        
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player!= null)
         {
             playerTransform = player.transform;
         }
+        
     }
 
     void Update()
@@ -33,11 +35,11 @@ private Transform playerTransform;
 
     private void OnTriggerEnter(Collider other)
     {
-        
+        if (collected) return;
         if (other.CompareTag("Player"))
         {
+            collected = true;
             AudioManager.instance.PlayCoinCollect();
-            
             CoinManager.instance.AddCoin();
             Destroy(gameObject);
         }

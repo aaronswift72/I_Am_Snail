@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
     [Header("Audio Clips")]
     public AudioClip birdsAmbience;
     public AudioClip windAmbience;
+    public AudioClip rainAmbience;
     public AudioClip coin1;
     public AudioClip coin2;
     public AudioClip coin3;
@@ -28,6 +29,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource birdsSource;         // For birds ambience
     public AudioSource jumpSource;          // For jump and jump charge
     public AudioSource coinSource;          // For coin collect
+    public AudioSource rainSource;          // For rain noise
 
     [Header("Volume Settings")]
     [Range(0f, 1f)] public float sfxVolume = 1.3f;
@@ -60,6 +62,9 @@ public class AudioManager : MonoBehaviour
         birdsSource.volume = ambienceVolume;
         jumpSource.volume = 0.35f;
         coinSource.volume = sfxVolume * 0.4f;
+        rainSource.volume = 0.15f;
+
+
     
 
         // Start sounds with delays
@@ -150,7 +155,7 @@ public class AudioManager : MonoBehaviour
     }
 
     public void PlaySplat()
-{
+    {
     int randomIndex = Random.Range(0, 4);
     AudioClip splatSound = null;
     switch (randomIndex)
@@ -172,5 +177,28 @@ public class AudioManager : MonoBehaviour
     {
         jumpSource.PlayOneShot(splatSound, sfxVolume);
     }
-}
+    }
+
+    public void StartRain()
+    {
+        windSource.Stop();
+        birdsSource.Stop();
+        if (rainAmbience != null)
+        {
+            rainSource.clip = rainAmbience;
+            rainSource.loop = true;
+            rainSource.Play();
+            
+        }
+    }
+    public void StopRain()
+    {
+        rainSource.Stop();
+        if (rainSource == null)
+        {
+            
+            windSource.Play();
+            birdsSource.Play();
+        }
+    }
 }

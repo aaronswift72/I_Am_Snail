@@ -3958,7 +3958,7 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 5000
+      - m_Value: 10000
         m_Name: SpawnRate
         m_Overridden: 1
     m_Vector2f:
@@ -4607,7 +4607,7 @@ GameObject:
   - component: {fileID: 1062371571}
   m_Layer: 0
   m_Name: AudioManager
-  m_TagString: Untagged
+  m_TagString: Audio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4626,6 +4626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   birdsAmbience: {fileID: 8300000, guid: d0b7d6f24e91f4c499a92ab57a9981f9, type: 3}
   windAmbience: {fileID: 8300000, guid: ff480ac9bb9b64e93ac68e53806c57dd, type: 3}
+  rainAmbience: {fileID: 8300000, guid: ec8ce96e0252d4794b42c79725fa5a59, type: 3}
   coin1: {fileID: 8300000, guid: c368c4f2ca14848c28f03086494c27e1, type: 3}
   coin2: {fileID: 8300000, guid: 09a72e8d68715465a9e024d9f11c2f95, type: 3}
   coin3: {fileID: 8300000, guid: 1098fafbe34e0423a975c96b40b0109a, type: 3}
@@ -4641,6 +4642,7 @@ MonoBehaviour:
   birdsSource: {fileID: 633882474}
   jumpSource: {fileID: 1089428861}
   coinSource: {fileID: 864321195}
+  rainSource: {fileID: 257847736}
   sfxVolume: 1
   musicVolume: 0.404
   ambienceVolume: 0.1
@@ -10645,13 +10647,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WeatherManager
   rainVFX: {fileID: 871467299}
-  minDryTime: 30
-  maxDryTime: 100
+  minDryTime: 15
+  maxDryTime: 90
   minRainDuration: 20
   maxRainDuration: 50
-  fadeSpeed: 1
-  rain: {fileID: 8300000, guid: ec8ce96e0252d4794b42c79725fa5a59, type: 3}
-  rainSource: {fileID: 257847736}
+  fadeSpeed: 1000
+  audioManager: {fileID: 1062371571}
 --- !u!1001 &1545661750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11649,7 +11650,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2106554887, guid: 512a78e3c7342504ca0c5bba586249f5, type: 3}
       propertyPath: MaxDistance
-      value: 14.54932
+      value: 15.925724
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106554887, guid: 512a78e3c7342504ca0c5bba586249f5, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].time
+      value: 0.08932191
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106554887, guid: 512a78e3c7342504ca0c5bba586249f5, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].inSlope
+      value: -1.1195732
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106554887, guid: 512a78e3c7342504ca0c5bba586249f5, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].inSlope
+      value: -0.76409775
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106554887, guid: 512a78e3c7342504ca0c5bba586249f5, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].outSlope
+      value: -1.1195732
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106554887, guid: 512a78e3c7342504ca0c5bba586249f5, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].inWeight
+      value: 0.07711254
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106554887, guid: 512a78e3c7342504ca0c5bba586249f5, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].outSlope
+      value: -0.76409775
+      objectReference: {fileID: 0}
+    - target: {fileID: 2106554887, guid: 512a78e3c7342504ca0c5bba586249f5, type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].outWeight
+      value: 0.06385351
       objectReference: {fileID: 0}
     - target: {fileID: 2106554887, guid: 512a78e3c7342504ca0c5bba586249f5, type: 3}
       propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value

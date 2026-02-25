@@ -17,9 +17,9 @@ MonoBehaviour:
     position:
       serializedVersion: 2
       x: 849
-      y: -1448
+      y: -1548
       width: 477
-      height: 2343
+      height: 2443
     contents:
     - model: {fileID: 8926484042661614608}
       id: 0
@@ -38,9 +38,9 @@ MonoBehaviour:
   uiBounds:
     serializedVersion: 2
     x: 574
-    y: -1448
+    y: -1548
     width: 752
-    height: 2343
+    height: 2443
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614610}
-  m_UIPosition: {x: 874, y: -1389}
+  m_UIPosition: {x: 874, y: -1489}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -1403,7 +1403,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"frames":[{"time":-0.0041656494140625,"value":0.49285888671875,"inTangent":2.0,"outTangent":2.0,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.995819091796875,"value":0.20714330673217774,"inTangent":-3.325016975402832,"outTangent":-3.325016975402832,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
+      m_SerializableObject: '{"frames":[{"time":0.02500152587890625,"value":0.924530029296875,"inTangent":2.0,"outTangent":2.0,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.995819091796875,"value":0.20714330673217774,"inTangent":-3.325016975402832,"outTangent":-3.325016975402832,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
     m_Space: -1
   m_Property:
     name: Size
@@ -1437,7 +1437,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: True
+      m_SerializableObject: False
     m_Space: -1
   m_Property:
     name: _vfx_enabled
@@ -1865,7 +1865,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.OrientedBox, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":-17.23552703857422,"y":36.99962615966797,"z":-25.622962951660158},"angles":{"x":0.0,"y":0.0,"z":0.0},"size":{"x":255.1620330810547,"y":173.99913024902345,"z":305.9498291015625}}'
+      m_SerializableObject: '{"center":{"x":-17.23552703857422,"y":56.68376159667969,"z":-25.62295913696289},"angles":{"x":0.0,"y":0.0,"z":0.0},"size":{"x":255.1620330810547,"y":134.630859375,"z":305.9498291015625}}'
     m_Space: 0
   m_Property:
     name: Box
@@ -1893,7 +1893,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614865}
   - {fileID: 8926484042661614866}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614862}
   m_MasterData:

@@ -42,12 +42,14 @@ public class SnailMovementSprite : MonoBehaviour
 
     void Start()
     {
+
         rb = GetComponent<Rigidbody>();
         
         if (player == null)
         {
             playerMovement = GetComponent<PlayerBehavior>();
         }
+        //transform.position = new Vector3(100f, 1.7f, -100f);
 
     }
 

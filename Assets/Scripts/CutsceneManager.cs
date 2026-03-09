@@ -6,9 +6,13 @@ public class CutsceneManager : MonoBehaviour
     public PlayableDirector director;
     public GameObject playerController;
     public MouseCamera mouseCameraScript;
+    public Canvas canvas;
+    
 
     private PlayerBehavior playerBehavior;
     private SnailMovementSprite snailSprite;
+    
+
 
     void Start()
     {
@@ -24,6 +28,12 @@ public class CutsceneManager : MonoBehaviour
         // Wait for timeline end
         director.stopped += OnCutsceneFinished;
         director.Play();
+
+        // Disable coin text and jump slider
+        foreach (Transform child in canvas.transform)
+        {
+            child.gameObject.SetActive(false);
+        }
     }
 
     void OnCutsceneFinished(PlayableDirector pd)
@@ -35,6 +45,12 @@ public class CutsceneManager : MonoBehaviour
 
         director.stopped -= OnCutsceneFinished;
         gameObject.SetActive(false);
+
+        // Enable coin text and jump slider
+        foreach (Transform child in canvas.transform)
+        {
+            child.gameObject.SetActive(true);
+        }
     }
 
     void OnDestroy()

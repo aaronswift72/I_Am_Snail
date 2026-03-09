@@ -12,7 +12,7 @@ public class DayNightCycle : MonoBehaviour
     [Header("Ambient")]
     public Gradient ambientColor;
 
-    private float timeOfDay = 0.35f; // start at morning (0=midnight, 0.5=noon)
+    private float timeOfDay = 0.4f; // start at morning (0=midnight, 0.5=noon)
 
     void Update()
     {

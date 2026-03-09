@@ -2093,7 +2093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0da67c58a7f3849849dbf56cc9efab43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DayNightCycle
-  dayDurationSeconds: 120
+  dayDurationSeconds: 240
   sunColor:
     serializedVersion: 2
     key0: {r: 1, g: 0.90802497, b: 0.4198113, a: 1}
@@ -4397,6 +4397,7 @@ MonoBehaviour:
   director: {fileID: 949424997}
   playerController: {fileID: 1525891045}
   mouseCameraScript: {fileID: 330585549}
+  canvas: {fileID: 796046242}
 --- !u!81 &949425000
 AudioListener:
   m_ObjectHideFlags: 0
@@ -10164,7 +10165,7 @@ Transform:
   m_GameObject: {fileID: 1390647866}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -4.17, y: -0.17, z: -50.33}
+  m_LocalPosition: {x: -14, y: -0.17, z: -73.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10877,10 +10878,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WeatherManager
   rainVFX: {fileID: 871467299}
-  minDryTime: 15
+  minDryTime: 25
   maxDryTime: 90
   minRainDuration: 20
-  maxRainDuration: 50
+  maxRainDuration: 45
   fadeSpeed: 1000
   audioManager: {fileID: 1062371571}
 --- !u!95 &1525891061
@@ -11984,7 +11985,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3615813628959939255, guid: 512a78e3c7342504ca0c5bba586249f5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.1
+      value: -13.93
       objectReference: {fileID: 0}
     - target: {fileID: 3615813628959939255, guid: 512a78e3c7342504ca0c5bba586249f5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11992,7 +11993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3615813628959939255, guid: 512a78e3c7342504ca0c5bba586249f5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -50.3
+      value: -73.06999
       objectReference: {fileID: 0}
     - target: {fileID: 3615813628959939255, guid: 512a78e3c7342504ca0c5bba586249f5, type: 3}
       propertyPath: m_LocalRotation.w

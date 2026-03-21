@@ -25,6 +25,7 @@ public class PlayerDeath : MonoBehaviour
 
         if (giantSnail == null)
             giantSnail = FindFirstObjectByType<GiantSnailAI>();
+            
     }
 
     public void Die()
